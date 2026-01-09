@@ -158,8 +158,8 @@ header .nav-ul-container ul li {
     color:  #627382;
 }
 .notes-card-container{
-    margin: 44px 120px;
-
+   
+   margin: 44px   120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -199,3 +199,44 @@ header .nav-ul-container ul li {
     margin: 16px 24px 0px;
 
 }
+/* bain section */
+.brain_info{
+    margin: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.bran_title{
+    font-size: 16px;
+    font-weight: 500px;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.brain_heading_title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+.barin_des{
+    font-size: 16px;
+    color: #627382;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.barin_list li{
+    list-style: none;
+    display: flex;
+    gap: 6px;
+    line-height: 20px;
+    font-weight: 500px;
+    font-size: 16px;
+    color: #001931;
+    margin-bottom: 16px;
+    
+
+}
+
