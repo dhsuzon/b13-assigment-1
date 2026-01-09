@@ -241,9 +241,10 @@ header .nav-ul-container ul li {
 }
 /* thiking info */
 .ready-thing{
-    margin: 0px 120px;
+    margin: 120px 120px;
     text-align: center;
     background-color: #F7F6F2;
+    border-radius: 12px;
 }
 .ready-thing h2{
     font-size: 40px;
@@ -259,5 +260,55 @@ header .nav-ul-container ul li {
     line-height: 24px;
     color: #627382;
 }
+/* footer */
+footer{
+     background-color: #001931;
+}
 
+.footer-container{
+    margin: 0px 120px;
+    background-color:#001931;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px ;
+    
+}
+.social-ink {
+    margin-right: 20px;
+}
+.social-ink h2{
 
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    text-align: center;
+
+}
+
+.icon-container{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    
+}
+.custom-fa{
+    background-color: #F7F6F2;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+   
+   
+   
+}
+.copyright-text{
+    text-align: center;
+    color: #FAFAFA;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 16px;
+}
