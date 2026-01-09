@@ -137,4 +137,65 @@ header .nav-ul-container ul li {
    gap: 10px;
 
 }
+/* note sections */
+.notes-title-container{
+    margin: 0px 120px ;
+}
+.notes-container-title{
+    text-align: center;
+}
+.notes-container-title h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+.notes-container-title p {
+    font-size: 16px;
+    color:  #627382;
+}
+.notes-card-container{
+    margin: 44px 120px;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap :24px;
+    
+}
+.note-card{
+    height: 320px;
+    height:300px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    text-align: center;
+    box-shadow: 0px 0px 8px #545454;
+
+}
+.note-image{
+    height: 60px;
+    width: 60px;
+    background-color: #F95555;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 24px 131px 16px ;
+}
+.note-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin: 0px 24px;
+    text-transform: capitalize;
+
+}
+.note-card p{
+    font-size: 16px;
+    color: #627382;
+    margin: 16px 24px 0px;
+
+}
